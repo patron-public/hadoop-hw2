@@ -1,0 +1,18 @@
+-Xms1g -Xmx4g
+-Xms2g -Xmx4g
+-Xms8g -Xmx8g
+-Xms8g -Xmx8g -Xmn1g
+-Xms8g -Xmx8g -Xmn2g
+-Xms8g -Xmx8g -Xmn4g
+-Xms8g -Xmx8g -XX:-OmitStackTraceInFastThrow
+-Xms8g -Xmx8g -XX:SurvivorRatio=1
+-Xms8g -Xmx8g -XX:SurvivorRatio=2
+-Xms8g -Xmx8g -XX:SurvivorRatio=5
+-Xms8g -Xmx8g -XX:NewSize=6g -XX:MaxNewSize=6g
+-Xms8g -Xmx8g -XX:NewSize=4g -XX:MaxNewSize=4g
+-Xms8g -Xmx8g -XX:NewSize=2g -XX:MaxNewSize=2g
+-Xms8g -Xmx8g -XX:PermSize=256M
+-Xms8g -Xmx8g -XX:PermSize=256M -XX:MaxPermSize=256M
+-Xms8g -Xmx8g -XX:+UseG1GC
+-Xms8g -Xmx8g -XX:+UseG1GC -XX:+UseStringDeduplication
+-Xms8g -Xmx8g -XX:+UseG1GC -XX:ParallelGCThreads=20 -XX:ConcGCThreads=5
